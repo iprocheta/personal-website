@@ -1,0 +1,37 @@
+.vl {
+  border-left: 6px solid #9e6735;
+  height: 100px;
+/*  position: absolute;*/
+  left: 12px;
+/*  margin-left: -3px;*/
+  top: 0;
+}
+.border{
+border: 2px solid #c9ad96; 
+    border-radius: 5px;
+}
+table, th, td {
+/*  border: 1px solid black;*/
+  border-collapse: collapse;
+}
+th, td {
+/*  padding: 15px;*/
+  text-align: left;
+}
+.circle{
+    height: 140px;
+    width: 150px;
+    border-radius: 50%;
+/*    border:2px solid #d3e5e6;*/
+    line-height: 140px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+   background: #b3f3f7;
+
+}
+.circle:hover
+{
+        background:#fad5b4;
+
+}
