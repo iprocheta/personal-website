@@ -18,6 +18,17 @@ th, td {
 /*  padding: 15px;*/
   text-align: left;
 }
+
+.rectangle {
+  height: 50px;
+  width: 100px;
+  background-color: #555;
+}
+.circle:hover
+{
+        background:#fad5b4;
+    color: aliceblue;
+}
 .circle{
     height: 140px;
     width: 150px;
@@ -28,6 +39,7 @@ th, td {
     font-weight: 700;
     font-size: 18px;
    background: #b3f3f7;
+/*    animation: myanimation 10s infinite;*/
 
 }
 .circle:hover
@@ -35,3 +47,106 @@ th, td {
         background:#fad5b4;
 
 }
+@keyframes myanimation {
+  0% {background-color: #b3f3f7;}
+  25%{background-color:yellow;}
+  50%{background-color:#98eb98;}
+  75%{background-color:#fad5b4;}
+  100% {background-color: #c9ef75;}
+}
+.img{
+    cursor:zoom-in;
+    cursor:-webkit-zoom-in;
+    cursor:-moz-zoom-in;
+    width:100px;
+}
+
+.how_it_works:hover
+{
+        background:#f4e5d9;
+
+}
+
+/*sidebar*/
+.content-section {
+  min-height: 2000px;
+}
+.sidebar-section {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+
+.sidebar-item {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	/* Position the items */
+/*
+	&:nth-child(2) { top: 25%; }
+	 &:nth-child(3) { top: 50%; }
+	 &:nth-child(4) { top: 75%; }
+*/
+}
+
+
+.make-me-sticky {
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    
+  padding: 0 15px;
+}
+
+
+
+/* Ignore This, just coloring */
+body {
+  background: #fff;
+}
+
+article {
+  background: #f1f1f1;
+  border-radius: 12px;
+  padding: 25px 0 600px;
+}
+
+
+.title-section, .content-section, .sidebar-section {
+  background: #fff;
+ 
+}
+
+.title-section {
+  text-align: center;
+  padding: 50px 15px;
+  margin-bottom: 30px;
+}
+
+.content-section h2 {
+  text-align: center;
+  margin: 0;
+  padding-top: 200px;
+}
+
+.sidebar-item {
+  text-align: center;
+  
+ 
+}
+
+/*multi carousel*/
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+.MultiCarousel{ Height: 189px;}
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }

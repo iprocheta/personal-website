@@ -1,17 +1,5 @@
 
 
-/*
-|--------------------------------------------------------------------------
-|  1.0 Base
-|  
-|--------------------------------------------------------------------------
-|
-| 
-|
-*/
-
-/* #Reset & Basics (Inspired by E. Meyers)
-================================================== */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -448,8 +436,8 @@ a.button_js {
 	padding: 0;
 }
 a.button.button_large, a.tp-button.button_large, button.button_large, input[type="submit"].button_large, input[type="reset"].button_large, input[type="button"].button_large {
-	font-size: 110%;
-	line-height: 110%;
+	font-size: 70%;
+	line-height: 120%;
 }
 /* Button label & icon */
 
@@ -487,7 +475,7 @@ a.button_large .button_label {
 	padding: 15px 30px;
 }
 a.button_large .button_icon {
-	padding: 15px 13px;
+	padding: 10px 30px;
 }
 /* Hover */
 
@@ -15785,10 +15773,11 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 	padding-right: 0
 }
 .button-stroke a.button_left.button_large .button_icon {
-	padding-left: 27px
+	padding-left: 20px;
+    
 }
 .button-stroke a.button_right.button_large .button_icon {
-	padding-right: 27px
+	padding-right: 20px
 }
 /* Buttons sizes */
 
@@ -16453,10 +16442,10 @@ body.mobile-side-slide {
 	padding-right: 0
 }
 .button-flat a.button_left.button_large .button_icon {
-	padding-left: 27px
+	padding-left: 30px
 }
 .button-flat a.button_right.button_large .button_icon {
-	padding-right: 27px
+	padding-right: 30px
 }
 button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
