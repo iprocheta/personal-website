@@ -29,6 +29,11 @@ th, td {
         background:#fad5b4;
     color: aliceblue;
 }
+.button_large:hover
+{
+        background:#b57f4f;
+   
+}
 .circle{
     height: 140px;
     width: 150px;
@@ -38,7 +43,7 @@ th, td {
     text-align: center;
     font-weight: 700;
     font-size: 18px;
-   background: #b3f3f7;
+   background: #FFF0BD;
 /*    animation: myanimation 10s infinite;*/
 
 }
@@ -138,15 +143,28 @@ article {
   
  
 }
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-/*multi carousel*/
-.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
-.MultiCarousel{ Height: 189px;}
-    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
-        .MultiCarousel .MultiCarousel-inner .item { float: left;}
-        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
-    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
-    .MultiCarousel .leftLst { left:0; }
-    .MultiCarousel .rightLst { right:0; }
-    
-        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+    body{
+    background: #EEE
+}
+
+    #str {
+   width: 800px;
+   padding: 20px;
+   height: auto;
+   font-family: sans-serif;
+   font-size: 40px;
+   margin: 200px auto;
+   color: #fff;
+   font-weight: bold;
+   background: #000
+}
+
+.rev-slidebg{
+   opacity: 0.5;  
+}

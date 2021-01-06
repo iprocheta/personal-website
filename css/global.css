@@ -6773,7 +6773,8 @@ ul.clients li .client_wrapper, ul.clients li .client_wrapper img {
 }
 .portfolio_slider ul li .image_frame {
 	border: 0;
-	margin-bottom: 0
+
+        margin:0px 10px 10px 10px;
 }
 .portfolio_slider .slider_nav {
 	color: #fff;
@@ -16830,15 +16831,20 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .content_slider {
 	padding: 0 140px;
+     
 	position: relative
+  
 }
 .content_slider .content_slider_ul {
 	margin: 0!important;
 	line-height: 0;
+     text-align: center;
 	border-width: 8px;
 	border-style: solid;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box
+     
+	
 }
 .content_slider .content_slider_ul li {
 	display: block;
@@ -16860,7 +16866,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .content_slider .slider_pagination {
 	width: 100%;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .content_slider .slider_pagination li {
 	display: inline-block;
